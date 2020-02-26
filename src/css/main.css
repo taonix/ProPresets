@@ -1,0 +1,211 @@
+body {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+
+@media all and (max-width:480px) {
+
+    .header {
+        float: none;
+    }
+
+    .header .header-logo {
+        float: none;
+    }
+
+    .header .header-menue {
+        float: none;
+    }
+}
+
+@media (min-width:781px) and (max-width:979px) {
+
+    .header {
+        float: none;
+    }
+
+    .header .header-logo {
+        float: none;
+    }
+
+    .header .header-menue {
+        float: none;
+    }
+}
+
+
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    transform-style: inherit;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menue {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menue  a {
+    margin-right: 15px;
+    color: #FFFFFF;
+    transition: color .50s;
+}
+
+.header .header-menue a:hover {
+    color: #4B77BE;
+}
+
+
+/*
+banner
+*/
+
+.banner {
+    margin-top: -25px;
+}
+
+.banner .banner-image {
+    position: relative;
+    width: 100%;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    margin-top: -300px;
+    font: 'Montserrat', sans-serif;
+    color: #353B40;
+}
+
+
+.Bouton-home {
+    margin-top: 10%;
+}
+
+.banner-content > p{
+    font-size: 50px;
+}
+
+.banner .banner-content p {
+    color: white;
+    margin-top: 15%;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.menu .title-is-1 {
+    font: 'Montserrat';
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.menu {
+    padding: 1cm;
+}
+
+.banner .banner-content .textv {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 1cm;
+}
+
+.banner .banner-content .textg {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 1cm;
+}
+
+.banner .banner-content a:hover {
+    font-family: 'Dosis', sans-serif;
+    color: #4B77BE;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 1cm;
+}
+
+.twentytwenty-container {
+    max-width: 20%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: black;
+    border-width: 10px;
+    border-radius: 20px;
+
+
+}
+
+.ba1 {
+    /*margin-top: 30%;
+    margin-left: 3%;*/
+}
+
+.ba1 h2 {
+    /*margin-left: -79%;
+    color: black;*/
+}
+
+.ba1 h4 {
+    /*margin-left: -79%;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 150%;*/
+    
+}
+
+.BarreDeNav {
+    position: inherit;
+    
+}
+
+.ba2 img {
+    margin-top: 0%;
+    margin-left: 0%;
+    max-width: 20%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: black;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.ba2 {
+    margin-top: 6%;
+}
